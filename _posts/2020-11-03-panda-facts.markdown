@@ -29,7 +29,7 @@ form.addEventListener('submit', async (event) => {
 
 In addition, I also observed that after this information was sent, a token was created and the user is redirected to `/pandas`. This information will be expanded on later.
 
-I next wanted to inspect the provided [index.js](file-dump/redpwn2020/index.js) source code and how it was related to the above information. Looking at the `generateToken(username)` method, it appears that the token is prepared with the format `{"integrity":"${INTEGRITY}","member":0,"username":"${username}"}`before being encrypted. It is important to note that the `$username` variable from the form that is supplied has not been sanitized and is therefore suceptiable to a JSON injection. 
+I next wanted to inspect the provided [index.js](/file-dump/redpwn2020/index.js) source code and how it was related to the above information. Looking at the `generateToken(username)` method, it appears that the token is prepared with the format `{"integrity":"${INTEGRITY}","member":0,"username":"${username}"}`before being encrypted. It is important to note that the `$username` variable from the form that is supplied has not been sanitized and is therefore suceptiable to a JSON injection. 
 
 At this point I knew what the attack vector would be, but was not sure what exactly need to be manipulated to view the flag. So I decided to look closer at what happens when `/api/flag` is called. A code snippet is supplied below. 
 
