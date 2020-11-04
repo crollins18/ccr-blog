@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Panda Facts"
+title:  "RedPwnCTF - Panda Facts"
 ---
 ## panda-facts was a challenge in the web category worth 412 points
 #### Special thanks to Aidan who helped guided me through this challenge.
