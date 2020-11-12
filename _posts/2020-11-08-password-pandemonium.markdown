@@ -8,7 +8,7 @@ title:  "Sunshine CTF - Password Pandemonium"
 ### Testing different passwords
 To test certain passwords to see if they passed the filter, I used a python script to send post requests with the data that would be supplied by the HTML form. This way I can see my password I am supplying in plain text and not forget if I tried a certain password before. I also used the beautifulsoup library to clean the html responses that were sent back into clean plain text. The python code is listed below. 
 
-```python 34f17320401021beea774eaafebdaac9
+```python
 import requests
 
 from bs4 import BeautifulSoup
