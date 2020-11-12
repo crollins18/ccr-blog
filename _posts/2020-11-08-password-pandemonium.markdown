@@ -55,7 +55,7 @@ After testing password after password....these are all the requirements that are
 * Password must be a palindrome
 
 ### Including an Emoji
-At first I thought that an html encoding of emojis was how I needed to submit emojis, however after repeatedly submitting different hex representations of typical emojis my number count and (uppercase/lowercase) letter count was getting out of wack. I realized this later on, but it was a bug DUHH moment, but I could just copy and paste an emoji that is already rendered from Google and place in into the python script. And like magic (not really!) the site now recognized the emoji requirement was fulfilled and now asked me to consider the next requirement.
+At first I thought that an html encoding of emojis was how I needed to submit emojis, however after repeatedly submitting different hex representations of typical emojis my number count and (uppercase/lowercase) letter count was getting out of wack. I realized this later on, but it was a big DUHH moment, but I could just copy and paste an emoji that is already rendered from Google and place in into the python script. And like magic (not really!) the site now recognized the emoji requirement was fulfilled and now asked me to consider the next requirement.
 * ex. `⚾testpassword!@#123TESTPASSWORD`
 
 ### MD5 hash that starts with a number
