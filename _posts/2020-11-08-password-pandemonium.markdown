@@ -8,7 +8,7 @@ title:  "Sunshine CTF - Password Pandemonium"
 ### Testing different passwords
 To test certain passwords to see if they passed the filter, I used a python script to send post requests with the data that would be supplied by the HTML form. This way I can see my password I am supplying in plain text and not forget if I tried a certain password before. I also used the beautifulsoup library to clean the html responses that were sent back into clean plain text. The python code is listed below. 
 
-```python 
+```python 34f17320401021beea774eaafebdaac9
 import requests
 
 from bs4 import BeautifulSoup
@@ -58,7 +58,7 @@ At first I thought that an html encoding of emojis was how I needed to submit em
 * ex. `⚾testpassword!@#123TESTPASSWORD`
 
 ### MD5 hash that starts with a number
-MD5 hashes involve lots of complex maths and well all I know is that after tooling around with a different emojis at the beginning of the password strings that the MD5 hash started with a number. I used (CyberChef)[https://gchq.github.io/CyberChef/] to play around with potential MD5 hash outputs.
+MD5 hashes involve lots of complex maths and well all I know is that after tooling around with a different emojis at the beginning of the password strings that the MD5 hash started with a number. I used [CyberChef](https://gchq.github.io/CyberChef) to play around with potential MD5 hash outputs.
 * ex. `😊testpassword!@#123TESTPASSWORD`
 * MD5 hash: `34f17320401021beea774eaafebdaac9`
 
