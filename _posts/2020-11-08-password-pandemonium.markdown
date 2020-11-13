@@ -64,7 +64,7 @@ MD5 hashes involve lots of complex maths and well all I know is that after tooli
 * MD5 hash: `34f17320401021beea774eaafebdaac9`
 
 ### Creating a password that is valid javascript that evaluates True
-* In javascript, many a special data type when evaluated can either be `True` or `False`. These are called Booleans. As referanced in this very helpful page by [w3Schools](https://www.w3schools.com/js/js_booleans.asp) that details the boolean type, the method `Boolean()` can be called to see if a variable is infact `True` or not.
+* In javascript, there is a special data type when evaluated that can either be `True` or `False`. These are called Booleans. As referanced in this very helpful page by [w3Schools](https://www.w3schools.com/js/js_booleans.asp) that details the boolean type, the method `Boolean()` can be called to see if a variable is infact `True` or not.
 * In addition I knew that inorder to have valid javascript code, certain parts of the code would need to be commented out. This is so that when examined the excess characters needed to fulfill the previous password requirements would be ignored. In javascirpt `//` denotes comments.
 * Lastly, I considered that by adding the `Boolean(fake_var)` into the password that is submitted would have to be considered in keeping with the uppercase and lower case requirement for letters. Below was my first attempt, before I had to consider the next requirement.
   * ex. `Boolean(100); // 🤡@XXXXA`
