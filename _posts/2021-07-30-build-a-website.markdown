@@ -19,7 +19,9 @@ I noticed that the only place direct input was handled (through the backend) was
 
 There was a comment earlier in the code stating `i dont remember how to return a string in flask so here goes nothing`. This inspired me to investigate how rendering a template could be potentially malicious. After research I came across articles talking about Server Side Template Injections through the Jinja templating language that Flask takes advantage of. To test this theory that any text sent could be interpreted at template information I sent this simple payload. 
 
-`{{8*8}}`
+```
+{{8*8}}
+```
 
 The webpage returned printed `64` indicating that this string input was correctly injected and not treated as a literal. Instead it was treated as though it was part of template placed by an administrator.
 
