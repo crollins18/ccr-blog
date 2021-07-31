@@ -21,7 +21,7 @@ There was a comment earlier in the code stating `i dont remember how to return a
 
 ![](https://i.imgur.com/38L3FEv.png)
 
-The webpage returned printed `64` indicating that this string input was correctly injected and not treated as a literal. Instead it was treated as though it was part of template placed by an administrator.
+The webpage returned `64` indicating that this string input was correctly injected and not treated as a literal. Instead it was treated as though it was part of template placed by an administrator.
 
 I knew that the objective from this point on was to find a way to read a system file. Instead of accessing typical libraries to read a file from the operating system, we have to be a little more strategic (since we can't import external libraries other than what is already specified in `app.py`). Various common payloads to read a remote file exist for Jinja (see [here](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md#jinja2---read-remote-file)). They involve navigating up through superclasses and subclasses to get to a desired class (like the File class) that can read out a flag. The problem with these common approaches is that our blacklist has terms `las`, `bas`, and `bal`. These are all substrings of `class`, `subclass`, and `global` keyword used in payloads. After much head banging about how to evade this type of blacklist (and still have our injection evaluate) I found a lead.
 
