@@ -29,6 +29,6 @@ I knew that the objective from this point on was to find a way to read a system 
 
 This payload 
 ![](https://i.imgur.com/DbKeVZ8.png)
-takes advantage of hexidecimal letter representations to get around the blacklist while still telling Python that we want to execute the shell command `cat flag.txt`.
+takes advantage of hexadecimal letter representations to get around the blacklist while still telling Python that we want to execute the shell command `cat flag.txt`.
 
 `ictf{:rooYay:_:rooPOG:_:rooHappy:_:rooooooooooooooooooooooooooo:}`
