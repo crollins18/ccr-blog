@@ -13,4 +13,4 @@ Finally, in the words of the famous author Stephen King, “Don’t let the sun 
 
 Image: High School Graduation
 
-![High School Graduation Photo](../file-dumps/misc-photos/gradphoto.jpg)
+![High School Graduation Photo](/file-dumps/misc-photos/gradphoto.jpg)
