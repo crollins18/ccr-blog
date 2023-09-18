@@ -1,1 +1,1 @@
-# ccr-ctfwriteups
+# ccr-blog

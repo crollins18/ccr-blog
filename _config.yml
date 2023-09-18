@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CTF Writeups - C. Rollins
+title: My Blog - C. Rollins
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -47,4 +47,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 baseurl: /
-url: http://ctf.crollins.io
+url: http://blog.crollins.io
