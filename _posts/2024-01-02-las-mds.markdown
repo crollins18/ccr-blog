@@ -14,4 +14,7 @@ The semester culminated at the [Posters and Pies symposium](https://www.csc.ncsu
 
 >This summary just the tip of the iceberg. If you are interested in learning more about the project, I highly encourage you read the accompanying article published by LAS on the entire scope of the model deployment service (outside what our team worked on) <br> [https://ncsu-las.org/2023/12/an-introduction-to-the-las-model-deployment-service](https://ncsu-las.org/2023/12/an-introduction-to-the-las-model-deployment-service/)
 
-![MDS Application Design](/file-dumps/misc-photos/mds-design.jpeg) ![Model Deployment Service Senior Team](/file-dumps/misc-photos/p&p-team.jpg)
+ 
+
+| ![MDS Application Design](/file-dumps/misc-photos/mds-design.jpeg)  | ![Model Deployment Service Senior Team](/file-dumps/misc-photos/p&p-team.jpg) |
+|:---:|:---:|
